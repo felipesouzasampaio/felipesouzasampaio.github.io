@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(53, 77, 204);
+    background: linear-gradient(171deg, rgba(53, 77, 204, 1) 0%, rgba(19, 35, 124, 1) 100%);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-attachment: fixed;
+    
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 40px 0 40px 10px;
+}
+
+.social img {
+    width: 35px;
+}
+
+.coluna1 , .coluna2 {
+    margin: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.coluna1 li {
+    background-color: white;
+    list-style: none;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+.coluna2 li {
+    background-color: white;
+    list-style: none;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(53, 77, 204); 
+    font-weight: 900;
+    
+}
+ul li a span{
+    display: block;
+    color: rgb(97, 97, 97);
+    font-weight: 200;
+}
+.coluna2 li a{
+    color: black;
+}
