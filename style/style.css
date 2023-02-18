@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(194deg, rgba(147,165,207,1) 64%, rgba(228,239,233,1) 100%);
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+.container1{
+    text-align: center;
+    margin-top: 20px;
+}
+.avatar{
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 12px white;
+}
+
+h1{
+    margin-top: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+h2{
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 3px;
+    
+}
+
+.container2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px; 
+}
+
+.container2 ul li{
+    list-style: none; 
+    
+    
+
+}
+.container2 ul li a{
+    list-style: none;
+}
+.container2 ul li a img{
+    width: 40px;
+}
+
+.container3{
+    margin-top: 50px;
+}
+
+.container3 ul{
+    height: auto;
+    
+}
+.container3 ul li{
+    list-style: none;
+    background-color: white;
+    margin: 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px white;
+    
+}
+.container3 ul li a{
+    display: flex;
+    text-decoration: none;
+    padding: 2px;
+   
+    
+}
+.container3 ul li a p{
+    padding-left: 15%; 
+    padding-top: 8px; 
+    color: rgb(87, 86, 86);
+    
+}
+.img-link{
+    width: 40px;
+    padding-left: 6%;
+    opacity: 0.6;
+    
+}
